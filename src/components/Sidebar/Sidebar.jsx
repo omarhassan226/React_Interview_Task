@@ -5,16 +5,16 @@ const Sidebar = () => {
   const [activeItem, setActiveItem] = useState("All Employees");
 
   const menuItems = [
-    { label: "Dashboard", icon: "../../../public/dash.svg" },
-    { label: "All Employees", icon: "../../../public/employee.svg" },
-    { label: "All Departments", icon: "../../../public/department.svg" },
-    { label: "Attendance", icon: "../../../public/attend.svg" },
-    { label: "Payroll", icon: "../../../public/payroll.svg" },
-    { label: "Leaves", icon: "../../../public/leaves.svg" },
-    { label: "Jobs", icon: "../../../public/jobs.svg" },
-    { label: "Candidates", icon: "../../../public/candidates.svg" },
-    { label: "Settings", icon: "../../../public/settings2.svg" },
-    { label: "Log Out", icon: "../../../public/logout.svg" },
+    { label: "Dashboard", icon: "dash.svg" },
+    { label: "All Employees", icon: "employee.svg" },
+    { label: "All Departments", icon: "department.svg" },
+    { label: "Attendance", icon: "attend.svg" },
+    { label: "Payroll", icon: "payroll.svg" },
+    { label: "Leaves", icon: "leaves.svg" },
+    { label: "Jobs", icon: "jobs.svg" },
+    { label: "Candidates", icon: "candidates.svg" },
+    { label: "Settings", icon: "settings2.svg" },
+    { label: "Log Out", icon: "logout.svg" },
   ];
 
   return (
